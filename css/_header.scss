@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    flex-direction:column;
+    header{
+        //border:1px solid black;
+        display:flex;
+        padding:0 6%;
+        justify-content:space-between;
+        background-color:rgb(240, 240, 240);
+            
+           //tutaj dodaj to zeby sie zmniejszal font wraz z mniejszym ekranem...
+           .header{
+               display:flex;
+               flex-direction:row;
+               //border: 1px solid black;
+               width:100%;
+               justify-content:space-between;
+               padding: 2% 0;
+               .text{
+                   display:flex;
+                   flex-direction:column;
+                   justify-content:space-around;
+                   
+                   
+
+                h1{
+                   color:grey;
+                   letter-spacing:10px;
+                  font-size:50px;
+                }
+                h3{
+                    color:grey;
+                    font-size:10px;
+                    
+                    
+                }
+                         
+               }
+               
+               img{
+                border-radius: 50%;
+                
+                
+                
+    
+            }   
+           
+        }
+        
+    
+        
+
+    }
+    
+}

@@ -1,0 +1,161 @@
+.cv{
+    margin:10%;
+    border:3px solid grey;
+    
+}
+
+
+.all{
+    padding:0 6%;
+    display:flex;
+    //border:1px solid black;
+    .left{
+        flex:1;
+        //border:1px solid black;
+        
+        display:flex;
+     
+        
+        flex-direction:column;
+        .left_all{
+           margin-right:10%;
+        .contact{
+            margin-top:6%;
+            h2{
+                border-bottom:1px solid grey;
+                letter-spacing:8px;
+                color:grey;
+            }
+            ul{
+                margin-left:5%;
+                list-style:none;
+                li{
+                    margin-top:1%; 
+                }
+            }
+            
+        }
+        
+        .education{
+            margin-top:6%;
+            h2{
+                border-bottom:1px solid grey;
+                letter-spacing:8px;
+                color:grey;
+               
+            }
+            .education_box{
+                .education_list{
+                    margin-top:6%;
+                    margin-left:5%;
+                    list-style:none;
+                    li{
+                        margin-top:1%; 
+                    }
+                    .fontb{
+                        font-weight:bold;
+                    }
+
+                }
+            }
+        }
+        .skills{
+           margin-top:6%;
+           h2{
+               border-bottom:1px solid grey;
+               letter-spacing:8px;
+               color:grey;
+           }
+           .lista{
+            margin-left:10%;
+            li{
+                margin-top:1%; 
+            }
+            }
+        }
+        
+        
+        .interests{
+            margin-top:6%;
+            h2{
+                border-bottom:1px solid grey;
+                letter-spacing:8px;
+                color:grey;
+            }
+            .lista{
+                margin-left:10%;
+                li{
+                    margin-top:1%; 
+                }
+            }
+            
+        }
+    }
+    
+    
+}
+.right{
+    flex:2;
+    //border:1px solid black;
+    
+     .all_right{
+         margin-left:6%;
+         margin-right:6%;
+         .profil{
+             margin-top:3%;
+             
+             h2{
+                 margin-top:3%;
+                 letter-spacing:8px;
+                 color:grey;
+                
+             margin-right:60%;
+             border-bottom: 1px solid grey;
+             }
+             p{
+                 margin-top:3%;
+             }
+         }
+         .workExperience{
+             margin-top:6%;
+             h2{
+                letter-spacing:8px;
+                color:grey;
+               
+                margin-right:60%;
+                border-bottom: 1px solid grey;
+             }
+             .workExample{
+                 margin-top:5%;
+                 h3{
+                     margin-top:1%;
+                     font-weight:bold;
+                     font-size:150%;
+                 }
+                 h4{
+                   margin-top:1%;  
+                   color:grey;
+                 }
+                 .lista2{
+                     margin-top:1%;
+                     margin-left:3%;
+                     li{
+                        margin-top:1%; 
+                     }
+                 }
+                 p{
+                   margin-top:1%;
+                 }
+             }
+         }
+     }
+     
+}
+}
+footer{
+    margin-top:10%;
+    margin-left:6%;
+    margin-right:6%;
+}
+
+    

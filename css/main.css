@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 6%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f0f0f0;
+}
+
+body header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 0;
+}
+
+body header .header .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header .header .text h1 {
+  color: grey;
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+
+body header .header .text h3 {
+  color: grey;
+  font-size: 10px;
+}
+
+body header .header img {
+  border-radius: 50%;
+}
+
+.cv {
+  margin: 10%;
+  border: 3px solid grey;
+}
+
+.all {
+  padding: 0 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.all .left .left_all {
+  margin-right: 10%;
+}
+
+.all .left .left_all .contact {
+  margin-top: 6%;
+}
+
+.all .left .left_all .contact h2 {
+  border-bottom: 1px solid grey;
+  letter-spacing: 8px;
+  color: grey;
+}
+
+.all .left .left_all .contact ul {
+  margin-left: 5%;
+  list-style: none;
+}
+
+.all .left .left_all .contact ul li {
+  margin-top: 1%;
+}
+
+.all .left .left_all .education {
+  margin-top: 6%;
+}
+
+.all .left .left_all .education h2 {
+  border-bottom: 1px solid grey;
+  letter-spacing: 8px;
+  color: grey;
+}
+
+.all .left .left_all .education .education_box .education_list {
+  margin-top: 6%;
+  margin-left: 5%;
+  list-style: none;
+}
+
+.all .left .left_all .education .education_box .education_list li {
+  margin-top: 1%;
+}
+
+.all .left .left_all .education .education_box .education_list .fontb {
+  font-weight: bold;
+}
+
+.all .left .left_all .skills {
+  margin-top: 6%;
+}
+
+.all .left .left_all .skills h2 {
+  border-bottom: 1px solid grey;
+  letter-spacing: 8px;
+  color: grey;
+}
+
+.all .left .left_all .skills .lista {
+  margin-left: 10%;
+}
+
+.all .left .left_all .skills .lista li {
+  margin-top: 1%;
+}
+
+.all .left .left_all .interests {
+  margin-top: 6%;
+}
+
+.all .left .left_all .interests h2 {
+  border-bottom: 1px solid grey;
+  letter-spacing: 8px;
+  color: grey;
+}
+
+.all .left .left_all .interests .lista {
+  margin-left: 10%;
+}
+
+.all .left .left_all .interests .lista li {
+  margin-top: 1%;
+}
+
+.all .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.all .right .all_right {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.all .right .all_right .profil {
+  margin-top: 3%;
+}
+
+.all .right .all_right .profil h2 {
+  margin-top: 3%;
+  letter-spacing: 8px;
+  color: grey;
+  margin-right: 60%;
+  border-bottom: 1px solid grey;
+}
+
+.all .right .all_right .profil p {
+  margin-top: 3%;
+}
+
+.all .right .all_right .workExperience {
+  margin-top: 6%;
+}
+
+.all .right .all_right .workExperience h2 {
+  letter-spacing: 8px;
+  color: grey;
+  margin-right: 60%;
+  border-bottom: 1px solid grey;
+}
+
+.all .right .all_right .workExperience .workExample {
+  margin-top: 5%;
+}
+
+.all .right .all_right .workExperience .workExample h3 {
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.all .right .all_right .workExperience .workExample h4 {
+  margin-top: 1%;
+  color: grey;
+}
+
+.all .right .all_right .workExperience .workExample .lista2 {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+.all .right .all_right .workExperience .workExample .lista2 li {
+  margin-top: 1%;
+}
+
+.all .right .all_right .workExperience .workExample p {
+  margin-top: 1%;
+}
+
+footer {
+  margin-top: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+/*# sourceMappingURL=main.css.map */
